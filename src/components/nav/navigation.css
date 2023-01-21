@@ -1,0 +1,16 @@
+.content {
+    background-color: rgb(7, 187, 187);
+    color: rgb(1, 41, 18)
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(7, 187, 187);
+    padding: 2rem 0rem;
+}
+
+span:hover{
+    color: rgb(0, 51, 51);
+    font-weight: bold;
+}
