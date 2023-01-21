@@ -1,13 +1,20 @@
 .content {
-    background-color: rgb(7, 187, 187);
-    color: rgb(1, 41, 18)
+    background-color: #34614b69;
+    color: #B0B5C2;
+    margin: 0rem 0rem;
+}
+
+.content p {
+    margin: 0rem 15rem;
+    line-height: 1.5rem;
 }
 
 .nav {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(7, 187, 187);
+    background-color: #34614b69;
     padding: 2rem 0rem;
+    color: #B0B5C2
 }
 
 span:hover{
