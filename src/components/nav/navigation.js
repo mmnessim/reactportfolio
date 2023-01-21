@@ -3,7 +3,7 @@ import './navigation.css'
 import { AboutMe } from "../pages/aboutme";
 import { Media } from "../pages/media";
 import { Landing } from "../pages/landing";
-import { Arrangements } from "../pages/arrangements";
+import { Arrangements } from "../arrangements/arrangements";
 
 
 export function NavigationMenu(props) {
