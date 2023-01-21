@@ -6,7 +6,7 @@ import { Landing } from "../pages/landing";
 import { Arrangements } from "../pages/arrangements";
 
 export function NavigationMenu(props) {
-    const [name, setName] = useState('About Me');
+    const [name, setName] = useState('Landing');
     let pageContent = '';
     
     if (name === 'About Me') {

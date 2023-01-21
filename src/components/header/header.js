@@ -1,15 +1,17 @@
 import React from "react";
 import { Title } from "../title/title";
-import { Subtitle } from "../title/subtitle";
 import { NavigationMenu } from "../nav/navigation";
+import './header.css'
 
 export function Header(props) {
     
     return (
         <div>
+            <div className="banner">
             <Title 
-            title="Mounir Nessim, Viola" />
-            <Subtitle title="A React-Powered Website" />
+            title="Mounir Nessim, Viola" 
+            subtitle="A React-Powered Website" />
+            </div>
             <NavigationMenu 
             value="Home" 
             />

@@ -1,0 +1,22 @@
+.title-banner{
+    background-color:rgba(0, 48, 48, 0.25);
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.title-banner h1 {
+    font-size: 3rem;
+}
+
+.title-banner h2 {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .title-banner h1{
+        font-size: 2rem;
+    }
+    .title-banner h2{
+        font-size: 1.5rem;
+    }
+}
