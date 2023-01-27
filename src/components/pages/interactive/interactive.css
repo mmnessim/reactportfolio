@@ -1,10 +1,11 @@
 .interactive-button {
     border: none;
     padding: 1rem 2rem;
-    margin: 0px .5rem;
+    margin: .5rem .5rem;
     background-color: black;
     color: white;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 .interactive-button:hover {
@@ -13,4 +14,12 @@
 
 #color-display {
     display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .interactive-button {
+        padding: .75rem 1.5rem;
+        margin-top: 1rem;
+        font-size: .8rem;
+    }
 }

@@ -30,6 +30,9 @@ span:hover{
     .content p {
         margin: 0rem 4rem;
     }
+    .nav {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (min-width: 1600px) {
