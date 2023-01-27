@@ -39,11 +39,11 @@ export function ColorPicker() {
                 <br />
                 <input type='number' id='red' name='red' max='255' onChange={inputColor1} placeholder='0'></input>
                 <br />
-                <label for='blue'>Blue Value</label>
+                <label for='blue'>Green Value</label>
                 <br />
                 <input type='number' id='blue' name='blue' max='255' placeholder='0' onChange={inputColor2}></input>
                 <br />
-                <label for='green'>Green Value</label>
+                <label for='green'>Blue Value</label>
                 <br />
                 <input type='number' id='green' name='green' max='255' placeholder='0' onChange={inputColor3}></input>
             </form>
