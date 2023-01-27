@@ -4,6 +4,7 @@
     margin: 1rem auto;
     border: 1px solid rgba(131, 58, 58, 0.205);
     max-width: 900px;
+    font-size: 1.15rem;
 }
 
 .content p {
@@ -16,6 +17,7 @@
     justify-content: space-around;
     background-color: #6b6b6b5b;
     padding: 2rem 0rem;
+    font-size: 1.5rem;
     color: #B0B5C2
 }
 
@@ -28,4 +30,16 @@ span:hover{
     .content p {
         margin: 0rem 4rem;
     }
+}
+
+@media only screen and (min-width: 1600px) {
+    .content {
+        font-size: 1.25rem;
+        max-width: 1200px;
+        border-radius: 50px;
+    }
+    .content p {
+        line-height: 1.75rem;
+    }
+
 }
