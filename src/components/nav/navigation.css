@@ -1,24 +1,26 @@
 .content {
-    background-color: #34614b69;
+    background-color: #6b6b6b5b;
     color: #B0B5C2;
-    margin: 0rem 0rem;
+    margin: 1rem auto;
+    border: 1px solid rgba(131, 58, 58, 0.205);
+    max-width: 900px;
 }
 
 .content p {
-    margin: 0rem 15rem;
+    margin: 1rem 10rem;
     line-height: 1.5rem;
 }
 
 .nav {
     display: flex;
     justify-content: space-around;
-    background-color: #34614b69;
+    background-color: #6b6b6b5b;
     padding: 2rem 0rem;
     color: #B0B5C2
 }
 
 span:hover{
-    color: rgb(0, 51, 51);
+    color: rgb(51, 0, 0);
     font-weight: bold;
 }
 
