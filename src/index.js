@@ -8,7 +8,7 @@ import { Header } from './components/header/header';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <Header />
+    <Header id="body"/>
   </div>
 );
 

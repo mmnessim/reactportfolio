@@ -1,0 +1,16 @@
+.interactive-button {
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0px .5rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.interactive-button:hover {
+    cursor: pointer;
+}
+
+#color-display {
+    display: none;
+}
