@@ -4,7 +4,7 @@ import { AboutMe } from "../pages/aboutme";
 import { Media } from "../pages/media";
 import { Landing } from "../pages/landing";
 import { Arrangements } from "../arrangements/arrangements";
-import { Interactive } from "../pages/interactive/interactive";
+import { Container } from "../pages/interactive/container";
 
 
 export function NavigationMenu(props) {
@@ -20,7 +20,7 @@ export function NavigationMenu(props) {
     } else if (name === 'Landing') {
         pageContent = <Landing />
     } else if (name === 'Interactive') {
-        pageContent = <Interactive />
+        pageContent = <Container />
     }
 
     return (
