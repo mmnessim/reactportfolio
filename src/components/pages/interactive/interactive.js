@@ -3,8 +3,8 @@ import './interactive.css';
 import { ColorPicker } from "./colorpicker";
 
 export function Interactive(props) {
-    const [color1, setColor1] = useState({red: 133, blue: 123, green: 123});
-    const [display, setDisplay] = useState(<p>Your color is rgb(133, 123, 123)</p>)
+    const [color1, setColor1] = useState({red: 50, blue: 50, green: 50});
+    const [display, setDisplay] = useState(<p>Your color is rgb(50, 50, 50)</p>)
     const body = document.getElementsByTagName('body')[0];
     let color;
     function handleClick2() {
@@ -18,9 +18,9 @@ export function Interactive(props) {
         body.style.backgroundColor = newColor;
     }
     function resetColor() {
-        color = '#857b7b';
+        color = 'rgb(50, 50, 50)';
         body.style.backgroundColor = color;
-        setDisplay(<p>Your color is rgb(133, 123, 123)</p>)
+        setDisplay(<p>Your color is rgb(50, 50, 50)</p>)
     };
     return (
         <div class='content'>
