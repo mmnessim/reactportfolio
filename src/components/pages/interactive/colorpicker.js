@@ -27,7 +27,7 @@ export function ColorPicker() {
         body.style.backgroundColor = `rgb(${color.r}, ${color.b}, ${color.g})`
     }
     function resetColor() {
-        let color1 = '#857b7b';
+        let color1 = 'rgb(50, 50, 50)';
         body.style.backgroundColor = color1;
     };
     return(
