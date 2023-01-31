@@ -1,6 +1,12 @@
 import React from "react";
 import { Interactive } from "./interactive";
+import { Updater } from "./updater";
 
 export function Container() {
-    return <Interactive />
+    return (
+    <div>
+        <Interactive />
+        <Updater />
+    </div>)
+    
 }

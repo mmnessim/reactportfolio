@@ -24,3 +24,10 @@
         font-size: .8rem;
     }
 }
+
+#seconds {
+    color: rgb(177, 106, 106);
+}
+#seconds:hover {
+    font-weight: normal;
+}
