@@ -6,9 +6,9 @@ import { NumberGuesser } from "./games/numberguesser";
 export function Container() {
     return (
     <div>
-        <NumberGuesser />
         <Interactive />
         <Updater />
+        <NumberGuesser />
     </div>)
     
 }
