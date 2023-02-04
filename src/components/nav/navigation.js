@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './navigation.css'
 import { AboutMe } from "../pages/aboutme";
 import { Media } from "../pages/media";
-import { Landing } from "../pages/landing";
+import { Landing } from "../pages/landing/landing";
 import { Arrangements } from "../arrangements/arrangements";
 import { Container } from "../pages/interactive/container";
 

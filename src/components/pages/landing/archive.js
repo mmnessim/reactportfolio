@@ -1,9 +1,8 @@
 import React from "react";
 
-export function Landing() {
-    return(
+export function Archive() {
+    return (
         <div className="content">
-            <h2>Under Construction!!!</h2>
             <h4>January 27, 2023</h4>
             <p>The most recent update to the site is that I've figured out how to link the pdfs to my arrangements. This would be very simple in a static site, but it turns out it's a bit different in React. Now, it's just a matter of finding the time to implement it for the rest of the pdfs. Up next, I am considering changing the styling of the page to something more appealing. Everything is a bit too green and plain right now. I could also use a few more pictures probably. I would also like to add an area for interactive elements to practice a few things.</p>
             <h4>January 20, 2023</h4>
