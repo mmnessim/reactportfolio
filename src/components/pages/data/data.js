@@ -23,7 +23,7 @@ export function Data() {
             <p>
                 When we look at some of the most performed composers, such as Verdi, we see again that few works make up the majority of performances.
             </p>
-            <a href={verdi} target='_blank' rel='noreferrer'><img src={verdi} alt="Count plot of Verdi's operas" /></a>
+            <a href={verdi} target='_blank' rel='noreferrer'><img src={verdi} alt="Count plot of Verdi's operas" className="figure" /></a>
             <p>
                 I've only dipped my toes into this data, but I am finding it surprisingly enjoyable. In the coming weeks, I'll continue to work with this data and refine my Python and data visualization skills.
             </p>
