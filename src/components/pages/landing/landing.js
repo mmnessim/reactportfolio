@@ -6,13 +6,20 @@ export function Landing() {
         <div>
             <div className="content">
                 <h2>Under Construction!!!</h2>
-                <h4>February 4, 2023</h4> 
-                <p>
-                    Welcome to the page! If you've been here before, you may have noticed a few style changes, as well as a new "Interactive" tab in the navigation menu. The great thing about React is interactivity, so I've been implementing a few simple things over there to practice things I've been learning. So far there are a couple tools to change the colors of the site, as well as a timer that keeps track of how long you are on that particular tab, and a tool that suggests 10 words that sound like your entry. Now, none of these are particularly useful, but they have been fun little coding tasks for me. 
-                </p>
-                <p>
-                    What I would like to work on sometime soon is maybe a very primitive game to add to the interactive tab. I think I have the capabilities to implement a couple different things, but time is always precious, so I don't know if or when that will happen. I've moved on to learning more about Backend development techniques, which do not yet have many obvious implementations on this page, so things might not change much in the next few weeks. 
-                </p>
+                <h4>March 5, 2023</h4>
+                    <p>
+                        It has been a while since I've updated the site, but I am back! February was a crazy month. I had numerous work obligations, then I got covid, which set me back a spell. I've also been taking a break from web development and learning more about data science and Python, which is not always as easy to apply on a portfolio site like this. While work is as busy and chaotic as ever, I have a few goals for the site in the near-mid future:
+                    </p>
+                    <ul className="list">
+                        <li>Use React Router to ease navigation</li>
+                        <li>Divide site into music portfolio and programming portfolio</li>
+                        <li>Update styling</li>
+                        <li>Provide more detail about specifics of coding skills and implementation</li>
+                        <li>Clean up code in general</li>
+                    </ul>
+                    <p>
+                        Some of these things might be indefinitely put on the backburner, depending on how crazy work it. The Spring semester is truly a hectic time for teachers. Nevertheless, I'll keep chipping away on weekends and when I have some free time. As for right now, check out the new "Data" tab for a touch of data analysis. 
+                    </p>
             </div>
             <Archive />
         </div>

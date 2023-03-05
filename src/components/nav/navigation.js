@@ -5,6 +5,7 @@ import { Media } from "../pages/media";
 import { Landing } from "../pages/landing/landing";
 import { Arrangements } from "../arrangements/arrangements";
 import { Container } from "../pages/interactive/container";
+import { Data } from "../pages/data/data";
 
 
 export function NavigationMenu(props) {
@@ -21,16 +22,19 @@ export function NavigationMenu(props) {
         pageContent = <Landing />
     } else if (name === 'Interactive') {
         pageContent = <Container />
+    } else if (name === 'Data') {
+        pageContent = <Data />
     }
 
     return (
         <div>
         <div className='nav'>
-            <span onClick={() => setName('Landing')}>Home</span>
-            <span onClick={() => setName('About Me')}>About Me</span>
-            <span onClick={() => setName('Media')}>Media</span>
-            <span onClick={() => setName('Arrangements')}>Arrangements</span>
-            <span onClick={() => setName('Interactive')}>Interactive</span>
+            <span onClick={() => setName('Landing')} className='navlink'>Home</span>
+            <span onClick={() => setName('About Me')} className='navlink'>About Me</span>
+            <span onClick={() => setName('Media')} className='navlink'>Media</span>
+            <span onClick={() => setName('Arrangements')} className='navlink'>Arrangements</span>
+            <span onClick={() => setName('Interactive')} className='navlink'>Interactive</span>
+            <span onClick={() => setName('Data')} className='navlink'>Data</span>
         </div>
         {pageContent}
         </div>

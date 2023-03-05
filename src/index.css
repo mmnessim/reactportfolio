@@ -8,8 +8,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background-color:  rgb(50, 50, 50);
+  color: white;
 }
 
+.list {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(216, 135, 135)
+}
+
+a:hover {
+  color: rgb(236, 69, 69)
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
