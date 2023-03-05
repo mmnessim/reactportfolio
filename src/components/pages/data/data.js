@@ -25,7 +25,7 @@ export function Data() {
             </p>
             <a href={verdi} target='_blank' rel='noreferrer'><img src={verdi} alt="Count plot of Verdi's operas" /></a>
             <p>
-                I've only dipped my toes into this data, but I am finding it surprisngly enjoyable. In the coming weeks, I'll continue to work with this data and refine my Python and data visualization skills.
+                I've only dipped my toes into this data, but I am finding it surprisingly enjoyable. In the coming weeks, I'll continue to work with this data and refine my Python and data visualization skills.
             </p>
         </div>
     )
