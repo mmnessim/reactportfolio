@@ -3,7 +3,6 @@ import './navigation.css'
 import { AboutMe } from "../pages/aboutme";
 import { Media } from "../pages/media";
 import { Landing } from "../pages/landing/landing";
-import { Arrangements } from "../arrangements/arrangements";
 import { Container } from "../pages/interactive/container";
 import { Data } from "../pages/data/data";
 
@@ -16,8 +15,6 @@ export function NavigationMenu(props) {
         pageContent = <AboutMe />
     } else if (name === 'Media') {
         pageContent = <Media />
-    } else if (name === 'Arrangements') {
-        pageContent = <Arrangements />
     } else if (name === 'Landing') {
         pageContent = <Landing />
     } else if (name === 'Interactive') {
@@ -32,7 +29,6 @@ export function NavigationMenu(props) {
             <span onClick={() => setName('Landing')} className='navlink'>Home</span>
             <span onClick={() => setName('About Me')} className='navlink'>About Me</span>
             <span onClick={() => setName('Media')} className='navlink'>Media</span>
-            <span onClick={() => setName('Arrangements')} className='navlink'>Arrangements</span>
             <span onClick={() => setName('Interactive')} className='navlink'>Interactive</span>
             <span onClick={() => setName('Data')} className='navlink'>Data</span>
         </div>
