@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './data.css'
 import { Opera } from "./content/opera";
 
-/* is there a way to collapse content div and open it on click? */
+/* Collapses on click, not 100% sure how to implement for other entries */
 
 export function Data() {
     const [state, setState] = useState('show')
@@ -19,10 +19,13 @@ export function Data() {
     } else {
         pageContent = <p onClick={toggleState} className='show-hide'>Click to expand</p>
     }
+
     return (
-        <div className="content">
-            <h2 className='show-hide' onClick={toggleState} >Global Opera Performances 2012-2018</h2>
-            {pageContent}
+        <div>
+            <div className="content">
+                <h2 className='show-hide' onClick={toggleState} >Global Opera Performances 2012-2018</h2>
+                {pageContent}
+            </div>
         </div>
     )
 }
