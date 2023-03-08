@@ -5,6 +5,7 @@ import { Media } from "../pages/media";
 import { Landing } from "../pages/landing/landing";
 import { Container } from "../pages/interactive/container";
 import { Data } from "../pages/data/data";
+import { Footer } from "../footer/footer";
 
 
 export function NavigationMenu(props) {
@@ -33,6 +34,7 @@ export function NavigationMenu(props) {
             <span onClick={() => setName('Data')} className='navlink'>Data</span>
         </div>
         {pageContent}
+        <Footer />
         </div>
     )
 }
