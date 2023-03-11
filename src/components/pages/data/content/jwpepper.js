@@ -16,11 +16,11 @@ export function JWPepper() {
             <p>
                 As might be expected, JW Pepper mostly sells scores aimed at intermediate and beginning students. The following chart displays the breakdown of pieces by level.
             </p>
-            <a href={grades} target='_blank' rel='noreferrer'><img src={grades} alt="Bar chart displaying frequency of each grade level on JW Pepper" /></a> 
+            <a href={grades} target='_blank' rel='noreferrer'><img src={grades} alt="Bar chart displaying frequency of each grade level on JW Pepper" className="figure"/></a> 
             <p>
                 I was also curious about who the most represented composers were. Richard Meyer, Doug Spata, and Brian Balmages top the list.
             </p>
-            <a href={topcomp} target='_blank' rel='noreferrer'><img src={topcomp} alt="Bar chart displaying composers with more than 10 works for sale on JW Pepper" /></a>
+            <a href={topcomp} target='_blank' rel='noreferrer'><img src={topcomp} alt="Bar chart displaying composers with more than 10 works for sale on JW Pepper" className="figure"/></a>
             <p>
                 Once again, this is more a proof of concept than a super useful application, but it was a surprisingly fun little project this week. 
             </p>
