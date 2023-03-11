@@ -8,8 +8,9 @@ import { Data } from "../pages/data/data";
 import { Footer } from "../footer/footer";
 
 
+
 export function NavigationMenu(props) {
-    const [name, setName] = useState('Landing');
+    const [name, setName] = useState('Data');
     let pageContent = '';
     
     if (name === 'About Me') {
@@ -22,7 +23,7 @@ export function NavigationMenu(props) {
         pageContent = <Container />
     } else if (name === 'Data') {
         pageContent = <Data />
-    }
+    } 
 
     return (
         <div>
