@@ -12,11 +12,13 @@
     line-height: 1.5rem;
 }
 
-.nav {
-    display: flex;
+.nav, .btn {
+    /*display: flex;
     justify-content: space-around;
     background-color: #6b6b6b5b;
-    padding: 2rem 0rem;
+    padding: 2rem 0rem;*/
+
+    background-color: #6b6b6b5b;
     font-size: 1.5rem;
     color: #B0B5C2
 }

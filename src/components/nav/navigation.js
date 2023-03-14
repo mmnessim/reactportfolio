@@ -28,11 +28,11 @@ export function NavigationMenu(props) {
     return (
         <div>
         <div className='nav'>
-            <span onClick={() => setName('Landing')} className='navlink'>Home</span>
-            <span onClick={() => setName('About Me')} className='navlink'>About Me</span>
-            <span onClick={() => setName('Media')} className='navlink'>Media</span>
-            <span onClick={() => setName('Interactive')} className='navlink'>Interactive</span>
-            <span onClick={() => setName('Data')} className='navlink'>Data</span>
+            <span onClick={() => setName('Landing')} className='btn  col-sm navlink'>Home</span>
+            <span onClick={() => setName('About Me')} className='btn  col-sm navlink'>About Me</span>
+            <span onClick={() => setName('Media')} className='btn  col-sm navlink'>Media</span>
+            <span onClick={() => setName('Interactive')} className='btn  col-sm navlink'>Interactive</span>
+            <span onClick={() => setName('Data')} className='btn  col-sm navlink'>Data</span>
         </div>
         {pageContent}
         <Footer />

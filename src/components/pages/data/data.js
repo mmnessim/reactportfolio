@@ -37,12 +37,12 @@ export function Data() {
     
     return (
         <div>
-            <div className="content">
-                <h2 className="show-hide" onClick={togglePepper}>JW Pepper String Orchestra Scores</h2>
+            <div className="content container-fluid row">
+                <h2 className="show-hide col" onClick={togglePepper}>JW Pepper String Orchestra Scores</h2>
                 {pepperDisplay}
             </div>
-            <div className="content">
-                <h2 className='show-hide' onClick={toggleState} >Global Opera Performances 2012-2018</h2>
+            <div className="content container-fluid row">
+                <h2 className='show-hide col' onClick={toggleState} >Global Opera Performances 2012-2018</h2>
                 {pageContent}
             </div>
         </div>

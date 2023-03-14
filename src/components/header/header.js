@@ -6,7 +6,7 @@ import './header.css'
 export function Header(props) {
     
     return (
-        <div>
+        <div className="container-fluid">
             <div className="banner">
             <Title 
             title="Mounir Nessim, Viola" 
