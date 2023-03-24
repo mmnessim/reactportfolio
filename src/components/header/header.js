@@ -1,7 +1,9 @@
 import React from "react";
 import { Title } from "../title/title";
 import { NavigationMenu } from "../nav/navigation";
-import './header.css'
+import './header.css';
+import { Outlet } from "react-router-dom";
+import { Footer } from "../footer/footer";
 
 export function Header(props) {
     
@@ -15,6 +17,8 @@ export function Header(props) {
             <NavigationMenu 
             value="Home" 
             />
+            <Outlet />
+            <Footer />
         </div>
     )
 } 
