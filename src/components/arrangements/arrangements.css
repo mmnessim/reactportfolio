@@ -1,0 +1,12 @@
+.pdf {
+    text-decoration: none;
+    color: white;
+}
+
+.pdf:hover {
+    text-decoration: underline;
+}
+
+.arr-list {
+    list-style-type: none;
+}

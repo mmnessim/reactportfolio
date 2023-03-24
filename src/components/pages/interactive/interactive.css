@@ -1,0 +1,33 @@
+.interactive-button {
+    border: none;
+    padding: 1rem 2rem;
+    margin: .5rem .5rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.interactive-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#color-display {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .interactive-button {
+        padding: .75rem 1.5rem;
+        margin-top: 1rem;
+        font-size: .8rem;
+    }
+}
+
+#seconds {
+    color: rgb(177, 106, 106);
+}
+#seconds:hover {
+    font-weight: normal;
+}
