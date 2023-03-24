@@ -2,6 +2,23 @@ import React from "react";
 
 export function ArchiveContent() {
     return(
+        <div>
+            <div className="content">
+                <h4>March 5, 2023</h4>
+                    <p>
+                        It has been a while since I've updated the site, but I am back! February was a crazy month. I had numerous work obligations, then I got covid, which set me back a spell. I've also been taking a break from web development and learning more about data science and Python, which is not always as easy to apply on a portfolio site like this. While work is as busy and chaotic as ever, I have a few goals for the site in the near-mid future:
+                    </p>
+                    <ul className="list">
+                        <li>Use React Router to ease navigation</li>
+                        <li>Divide site into music portfolio and programming portfolio</li>
+                        <li>Update styling</li>
+                        <li>Provide more detail about specifics of coding skills and implementation</li>
+                        <li>Clean up code in general</li>
+                    </ul>
+                    <p>
+                        Some of these things might be indefinitely put on the backburner, depending on how crazy work it. The Spring semester is truly a hectic time for teachers. Nevertheless, I'll keep chipping away on weekends and when I have some free time. As for right now, check out the new "Data" tab for a touch of data analysis. 
+                    </p>
+            </div>
         <div className="content">
             <h4>February 4, 2023</h4> 
                     <p>
@@ -15,6 +32,7 @@ export function ArchiveContent() {
                     <h4>January 20, 2023</h4>
                     <p>Welcome to an in-development web portfolio written in React.js. I intend for this website to be an place to display and test some of the things that I've been learning. At the moment, I am just filling out the basic structure of the page, such as the different sections, content, and functionality. Don't be surprised if things look wonky, or if something is broken. Almost everything at this point is a placeholder, including the color scheme and styling.</p>
                     <p>All that being said, welcome and feel free to poke around. I'm hoping to make this a more inviting page soon!</p>
+        </div>
         </div>
     )
 }
