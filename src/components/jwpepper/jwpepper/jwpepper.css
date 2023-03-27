@@ -1,0 +1,14 @@
+.jwpepper {
+    max-height: 800px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.btn-info {
+    border: none;
+    margin: 1rem 0rem;
+}
+
+.btn:hover {
+    background-color: rgb(41, 11, 11);
+}

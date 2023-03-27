@@ -1,4 +1,5 @@
 import React from "react";
+import { PepperSearch } from "../../jwpepper/jwpepper/JWPepper";
 import { Archive } from "./archive";
 
 export function Landing() {
