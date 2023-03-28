@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Header } from './components/header/header';
-import { Landing } from './components/pages/landing/landing';
+import { Landing } from './components/landing/landing';
 import { AboutMe } from './components/pages/aboutme';
 import { Media } from './components/pages/media';
 import { Interactive } from './components/pages/interactive/interactive';
@@ -12,6 +12,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { PepperSearch } from './components/jwpepper/jwpepper/JWPepper';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: '/data',
         element: <Data />
+      },
+      {
+        path: '/pieces',
+        element: <PepperSearch />
       }
     ],
   },
