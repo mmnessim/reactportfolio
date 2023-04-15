@@ -10,6 +10,7 @@ export function NavigationMenu(props) {
                 <Link to={'/'} className='btn col-sm navlink'>Home</Link>
                 <Link to={'/about'} className='btn col-sm navlink'>About Me</Link>
                 <Link to={'/media'} className='btn col-sm navlink'>Media</Link>
+                <Link to={'/wordle'} className='btn col-sm navlink'>Wordle Clone</Link>
                 <Link to={'/interactive'} className='btn col-sm navlink'>Interactive</Link>
                 <Link to={'/data'} className='btn col-sm navlink'>Data</Link>
             </div>

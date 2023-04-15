@@ -12,6 +12,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import { WordleContainer } from './components/wordleClone/wordleContainer';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: '/data',
         element: <Data />
+      },
+      {
+        path: 'wordle',
+        element: <WordleContainer />
       }
     ],
   },
