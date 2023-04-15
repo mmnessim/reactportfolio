@@ -13,6 +13,7 @@ export function NavigationMenu(props) {
                 <Link to={'/wordle'} className='btn col-sm navlink'>Wordle Clone</Link>
                 <Link to={'/interactive'} className='btn col-sm navlink'>Interactive</Link>
                 <Link to={'/data'} className='btn col-sm navlink'>Data</Link>
+                <Link to={'/pieces'} className='btn col-sm navlink'>JW Pepper Catalogue</Link>
             </div>
         </div>
     )

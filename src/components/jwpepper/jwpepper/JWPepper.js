@@ -86,6 +86,7 @@ export function PepperSearch() {
       };
 
     return (
+      <div className="content">
        <div className="jwpepper">
           <h1>Pieces on JW Pepper by level</h1>
           <button className="btn" onClick={() => {setQuery('level/very%20easy')}}>Very Easy</button>
@@ -98,6 +99,7 @@ export function PepperSearch() {
           <h3 onClick={showHide} className='btn btn-info'>Click to {show === 'show' ? 'hide' : 'show'} pieces ({displayLevel})</h3>
           <br />
           {renderer}
+       </div>
        </div>
     );
     }
