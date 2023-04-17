@@ -14,10 +14,11 @@ export function Input(props) {
     useEffect(() => {
         if (input) {
             if (input.length === 5 && !words.includes(input)) {
-                setError('Invalid word')
+                setError('Invalid word');
+                setGuess(null);
             } else if (input.length === 5 && words.includes(input)) {
-                setGuess(input)
-                setError()
+                setGuess(input);
+                setError();
             }
         }
         else {
@@ -32,6 +33,7 @@ export function Input(props) {
             <Compare 
             word={props.word} 
             guess={guess} />
+            <button>Give up?</button>
         </div>
     )
 }

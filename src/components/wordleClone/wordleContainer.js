@@ -22,6 +22,7 @@ export function WordleContainer() {
             <p>Green means you have the right letter in the right place. Yellow means you have the right letter, but in the wrong place! For now, you have unlimited guesses! The word will reset if you refresh the page! Also, the word list I am using contains some real oddballs</p>
             <Input 
             word={wordArray}
+            giveup={word}
             />
             <br />
             <p>Note: there are a few technical shortcomings in this Wordle clone. As of 4/15/2023, the code does not account for duplicate letters that are in the wrong location. For example, if you enter a word with two o's and the actual word has one o in a different location, both of your o's will show as yellow (right letter, wrong place).</p>
