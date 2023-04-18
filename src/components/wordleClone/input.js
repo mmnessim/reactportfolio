@@ -6,6 +6,8 @@ export function Input(props) {
     const [input, setInput] = useState();
     const [error, setError] = useState();
     const [guess, setGuess] = useState();
+    const [giveup, setGiveup] = useState();
+    const [giveupMessage, setGiveupMessage] = useState();
 
     const handleInput = (e) => {
         setInput(e.target.value);
@@ -25,6 +27,12 @@ export function Input(props) {
             setError(null)
         }
     }, [input]);
+
+    const handleGiveUp = () => {
+        const element = <h3>The word was {props.giveup}</h3>
+        setGiveup(true);
+        setGiveupMessage(element);
+    }
     
     return(
         <div>
@@ -32,8 +40,10 @@ export function Input(props) {
             <input type='text' onChange={handleInput}></input>
             <Compare 
             word={props.word} 
-            guess={guess} />
-            <button>Give up?</button>
+            guess={guess} 
+            giveup={giveup} />
+            <button onClick={handleGiveUp} className="btn">Give up?</button>
+            {giveupMessage}
         </div>
     )
 }
